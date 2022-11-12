@@ -1,0 +1,123 @@
+.navbar {
+    /* background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+  }
+
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo h6{
+    margin-left: 10px;
+  }
+
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    height: 100%;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+
+  .nav-links {
+    color: #fff;
+    font-weight:700;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+  }
+
+  .nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+
+  .navbar-menu-icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 960px) {
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+      height: 35vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #242222;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      background-color: #fff;
+      color: #242424;
+      border-radius: 0;
+    }
+
+    .navbar-container{
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .navbar-logo {
+      margin-left: 40px;
+    }
+  
+    .navbar-menu-icon {
+      display:flex;
+      color: #fff;
+      cursor: pointer;
+      margin-right: 50px;
+    }
+  
+  }
