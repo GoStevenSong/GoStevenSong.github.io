@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e5048f6.chunk.css",
+    "main.js": "/static/js/main.afefed2e.chunk.js",
+    "main.js.map": "/static/js/main.afefed2e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e2b0f817.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e2b0f817.js.map",
+    "static/js/2.a6393c52.chunk.js": "/static/js/2.a6393c52.chunk.js",
+    "static/js/2.a6393c52.chunk.js.map": "/static/js/2.a6393c52.chunk.js.map",
+    "static/js/3.8280393c.chunk.js": "/static/js/3.8280393c.chunk.js",
+    "static/js/3.8280393c.chunk.js.map": "/static/js/3.8280393c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5e5048f6.chunk.css.map": "/static/css/main.5e5048f6.chunk.css.map",
+    "static/js/2.a6393c52.chunk.js.LICENSE.txt": "/static/js/2.a6393c52.chunk.js.LICENSE.txt",
+    "static/media/ComingSoon.jpg": "/static/media/ComingSoon.0dce8b06.jpg",
+    "static/media/HandRobot.jpg": "/static/media/HandRobot.4a401041.jpg",
+    "static/media/Home.css": "/static/media/Home_Background.97ee7638.jpg",
+    "static/media/QubicPic.jpg": "/static/media/QubicPic.4a79c5f9.jpg",
+    "static/media/QubicSystemDiagram.jpg": "/static/media/QubicSystemDiagram.552e11bf.jpg",
+    "static/media/RentalTinder.jpg": "/static/media/RentalTinder.5956b57f.jpg",
+    "static/media/WasteDetection.jpg": "/static/media/WasteDetection.113d5d74.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2b0f817.js",
+    "static/js/2.a6393c52.chunk.js",
+    "static/css/main.5e5048f6.chunk.css",
+    "static/js/main.afefed2e.chunk.js"
+  ]
+}
